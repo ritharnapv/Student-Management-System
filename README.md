@@ -22,6 +22,23 @@ A **modern, fully-featured Student Management System** built with pure HTML, CSS
 | **Responsive**    | Works on desktop, tablet, and mobile                                               |
 | **Dark Theme**    | Premium dark UI with glassmorphism and smooth animations                           |
 
+| Feature | Details |
+|---|---|
+| **Dashboard** | Live summary cards, grade distribution bars, recent students, department breakdown |
+| **Add Student** | Fully validated form with real-time grade preview |
+| **Edit / Delete** | Inline edit and delete with confirmation modal |
+| **Search** | Filter by name or Student ID in real-time |
+| **Filters** | Dropdown filters for Department, Grade, and Semester |
+| **Sorting** | Click any column header to sort ascending/descending |
+| **Pagination** | Configurable rows per page (5 / 10 / 20 / 50) |
+| **Auto Grade** | Percentage and grade calculated automatically from marks |
+| **Persistence** | All data saved to `localStorage` — survives page refresh |
+| **Validation** | Duplicate ID check, email format, number range, required fields |
+| **Demo Data** | 12 sample students pre-loaded on first launch |
+| **Responsive** | Works on desktop, tablet, and mobile |
+| **Dark Theme** | Premium dark UI with glassmorphism and smooth animations |
+
+
 ---
 
 ## 🚀 Setup
@@ -29,13 +46,19 @@ A **modern, fully-featured Student Management System** built with pure HTML, CSS
 No installation or build step required.
 
 ### Method 1 — Open Directly in Browser
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8e6ff29 (Initial commit - Student Management System)
 1. Navigate to your project folder (`skill lab/`)
 2. Double-click **`index.html`**
 3. The app opens in your default browser
 
 ### Method 2 — Live Server (VS Code)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8e6ff29 (Initial commit - Student Management System)
 1. Install the **Live Server** extension in VS Code
 2. Right-click `index.html` → **Open with Live Server**
 3. The app auto-reloads on file changes
@@ -57,6 +80,7 @@ skill lab/
 
 ## 🎓 Grading Scale
 
+<<<<<<< HEAD
 | Grade | Marks  | Status |
 | ----- | ------ | ------ |
 | A+    | 90–100 | Pass   |
@@ -65,56 +89,93 @@ skill lab/
 | C     | 60–69  | Pass   |
 | D     | 50–59  | Pass   |
 | F     | 0–49   | Fail   |
+=======
+| Grade | Marks | Status |
+|-------|-------|--------|
+| A+    | 90–100 | Pass |
+| A     | 80–89  | Pass |
+| B     | 70–79  | Pass |
+| C     | 60–69  | Pass |
+| D     | 50–59  | Pass |
+| F     | 0–49   | Fail |
+>>>>>>> 8e6ff29 (Initial commit - Student Management System)
 
 ---
 
 ## 📋 Usage Guide
 
 ### Adding a Student
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8e6ff29 (Initial commit - Student Management System)
 1. Click **Add Student** in the sidebar
 2. Fill in all required fields (ID, Name, Email, Department, Semester, Marks)
 3. The grade and percentage preview updates live as you type marks
 4. Click **Save Student** — the record is saved to localStorage immediately
 
 ### Editing a Student
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8e6ff29 (Initial commit - Student Management System)
 1. Go to **All Students**
 2. Click the ✏️ pencil icon on any row
 3. The form pre-fills with the student's current data
 4. Make changes and click **Update Student**
 
 ### Deleting a Student
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8e6ff29 (Initial commit - Student Management System)
 1. Click the 🗑️ trash icon on any row
 2. Confirm deletion in the popup modal
 3. The record is permanently removed
 
 ### Searching & Filtering
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8e6ff29 (Initial commit - Student Management System)
 - Use the **search bar** to filter by name or Student ID in real time
 - Use the **Department**, **Grade**, and **Semester** dropdowns to narrow results
 - Click **Clear** to reset all filters at once
 
 ### Sorting
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8e6ff29 (Initial commit - Student Management System)
 - Click any column header (ID, Name, Department, Semester, Marks, %, Grade) to sort
 - Click again to reverse the sort order
 
 ### Notifications Badge
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8e6ff29 (Initial commit - Student Management System)
 - The bell icon shows how many students are currently **failing** (marks < 50)
 
 ---
 
 ## 🛠 Browser Compatibility
 
+<<<<<<< HEAD
 | Browser     | Supported |
 | ----------- | --------- |
 | Chrome 80+  | ✅        |
 | Firefox 75+ | ✅        |
 | Edge 80+    | ✅        |
 | Safari 14+  | ✅        |
+=======
+| Browser | Supported |
+|---------|-----------|
+| Chrome 80+ | ✅ |
+| Firefox 75+ | ✅ |
+| Edge 80+ | ✅ |
+| Safari 14+ | ✅ |
+>>>>>>> 8e6ff29 (Initial commit - Student Management System)
 
 ---
 
@@ -130,6 +191,7 @@ All student records are stored in the browser's **localStorage** under the key `
 
 ## ⚠️ Validation Rules
 
+<<<<<<< HEAD
 | Field      | Rule                                                   |
 | ---------- | ------------------------------------------------------ |
 | Student ID | Required, 2–20 alphanumeric characters, must be unique |
@@ -138,6 +200,16 @@ All student records are stored in the browser's **localStorage** under the key `
 | Department | Required, must select from dropdown                    |
 | Semester   | Required, must select from dropdown                    |
 | Marks      | Required, number between 0 and 100                     |
+=======
+| Field | Rule |
+|-------|------|
+| Student ID | Required, 2–20 alphanumeric characters, must be unique |
+| Full Name | Required, letters and spaces only, min 2 chars |
+| Email | Required, valid email format |
+| Department | Required, must select from dropdown |
+| Semester | Required, must select from dropdown |
+| Marks | Required, number between 0 and 100 |
+>>>>>>> 8e6ff29 (Initial commit - Student Management System)
 
 ---
 
@@ -151,6 +223,10 @@ All student records are stored in the browser's **localStorage** under the key `
 
 ---
 
+<<<<<<< HEAD
 _Built with ❤️ using HTML, CSS & Vanilla JavaScript — EduTrack v1.0_
 
 # Student-Management-System
+=======
+*Built with ❤️ using HTML, CSS & Vanilla JavaScript — EduTrack v1.0*
+>>>>>>> 8e6ff29 (Initial commit - Student Management System)
